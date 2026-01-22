@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+}
+
+body {
+  background: url("img/Rectangle\ 2.png") no-repeat center/cover;
+}
+
+/* ---------- HERO ---------- */
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  letter-spacing: 3px;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* ---------- STRATEGY ---------- */
+
+.strategy {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 10%;
+}
+
+.strategy .left {
+  position: relative;
+  width: 50%;
+}
+
+.circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  padding: 25px;
+  position: absolute;
+  text-align: center;
+}
+
+.circle h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.circle p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.purple {
+  background: #7b7cff;
+  top: 0;
+  left: 120px;
+}
+
+.pink {
+  background: #7a4a7f;
+  top: 160px;
+  left: 0;
+}
+
+.dark {
+  background: #3d1c8c;
+  top: 180px;
+  left: 220px;
+}
+
+.strategy .right {
+  width: 40%;
+}
+
+.strategy h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.strategy p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+/* ---------- CLASSES ---------- */
+
+.classes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 10%;
+}
+
+.classes .text {
+  width: 50%;
+}
+
+.classes h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.classes p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.card img {
+  width: 280px;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+  text-align: center;
+  padding: 40px;
+  background:url(img/bg-footer.png);
+  font-size: 14px;
+}
